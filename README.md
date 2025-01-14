@@ -34,7 +34,7 @@ matplotlib==3.7.2
     - Arias_Intensity
     - Cumulative_Absolute_Velocity
     - Peak_Ground_Velocity
-
+- Building monitoring data.xlsx 74 measured data used for validating the proposed method.
 ## Model Architecture
 - Input layer: 12 feature nodes
 - Hidden layers:
@@ -44,7 +44,7 @@ matplotlib==3.7.2
   - 64 nodes × 1 layer
   - 32 nodes × 1 layer
 - Output layer: 1 node
-- Activation function: LeakyReLU(0.01)
+- Activation function: LeakyReLU
 - Regularization: BatchNormalization and Dropout
 
 ## Training Parameters
